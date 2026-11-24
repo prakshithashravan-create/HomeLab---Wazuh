@@ -38,6 +38,18 @@ Alerts are assessed based on severity, event context, process information, user 
 
 ## 6. Project Status
 
+
+
+flowchart LR
+    A[Windows Endpoint] --> B[Windows Sysmon]
+    B --> C[Wazuh Agent]
+    C --> D[Wazuh Manager]
+    D --> E[Security Rules]
+    E --> F[Wazuh Dashboard]
+    F --> G[Alert Investigation]
+    G --> H[Incident Documentation]
+
+
 Architecture and workflows documented as simulated learning examples. Live deployment and telemetry validation are pending.
 
 ## 7. Disclaimer
