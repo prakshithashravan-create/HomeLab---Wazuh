@@ -1,1 +1,17 @@
 
+{
+  "EventID": 1,
+  "EventType": "Process Creation",
+  "Computer": "WIN-ENDPOINT-01",
+  "UtcTime": "2026-11-24T08:30:15.000Z",
+  "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "CommandLine": "powershell.exe -NoProfile -ExecutionPolicy Bypass",
+  "ParentImage": "C:\\Windows\\explorer.exe",
+  "ParentCommandLine": "C:\\Windows\\Explorer.EXE",
+  "User": "WIN-ENDPOINT-01\\analyst",
+  "ProcessId": "4520",
+  "ParentProcessId": "3120",
+  "IntegrityLevel": "High",
+  "Description": "Illustrative PowerShell process creation event"
+}
+
