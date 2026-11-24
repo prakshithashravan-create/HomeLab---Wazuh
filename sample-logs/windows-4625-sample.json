@@ -1,1 +1,16 @@
 
+{
+  "EventID": 4625,
+  "EventType": "Failed Logon",
+  "Computer": "WIN-ENDPOINT-01",
+  "TimeCreated": "2026-11-24T09:15:30Z",
+  "TargetUserName": "administrator",
+  "LogonType": 3,
+  "Status": "0xC000006D",
+  "SubStatus": "0xC000006A",
+  "IpAddress": "192.0.2.25",
+  "WorkstationName": "UNKNOWN-CLIENT",
+  "FailureReason": "Unknown user name or bad password",
+  "Description": "Illustrative failed authentication event"
+}
+
