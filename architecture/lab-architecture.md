@@ -40,19 +40,5 @@ Alerts are assessed based on severity, event context, process information, user 
 
 
 
-flowchart LR
-    A[Windows Endpoint] --> B[Windows Sysmon]
-    B --> C[Wazuh Agent]
-    C --> D[Wazuh Manager]
-    D --> E[Security Rules]
-    E --> F[Wazuh Dashboard]
-    F --> G[Alert Investigation]
-    G --> H[Incident Documentation]
-
-
-Architecture and workflows documented as simulated learning examples. Live deployment and telemetry validation are pending.
-
-## 7. Disclaimer
-
-This architecture represents a learning and portfolio reference design, not a deployed SOC environment.
+<img width="599" height="73" alt="image" src="https://github.com/user-attachments/assets/f85b9204-ee17-455d-a9f9-0e6f0a1e37fb" />
 
