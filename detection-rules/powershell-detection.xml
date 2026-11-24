@@ -1,1 +1,18 @@
 
+<group name="windows,sysmon,custom,">
+
+  <rule id="100100" level="7">
+    <if_group>sysmon_event1</if_group>
+    <field name="win.eventdata.image"
+           type="pcre2">(?i)\\powershell\.exe$</field>
+    <description>
+      PowerShell process execution detected
+    </description>
+    <mitre>
+      <id>T1059.001</id>
+    </mitre>
+    <group>process_creation,powershell,</group>
+  </rule>
+
+</group>
+
