@@ -1,19 +1,62 @@
 
----
+# Home SOC Lab – Wazuh SIEM & Windows Sysmon
 
-## Project Documentation
+## Project Overview
 
-| Module | Description |
+A cybersecurity learning portfolio focused on Security Operations, Endpoint Monitoring, Threat Detection, and Incident Investigation using Wazuh SIEM and Windows Sysmon.
+
+The project documents simulated SOC scenarios, Windows security event analysis, detection rule examples, MITRE ATT&CK mapping, and incident response workflows.
+
+**Project Type:** Simulated SOC Lab Portfolio  
+**Deployment Status:** Documentation and sample scenarios prepared; live lab deployment pending.
+
+## Objectives
+
+- Understand SIEM monitoring and alert investigation.
+- Analyze Windows endpoint telemetry using Sysmon.
+- Explore security detection rule development.
+- Investigate suspicious authentication and process activity.
+- Map security events to MITRE ATT&CK.
+- Document incident response and remediation workflows.
+
+## Tools & Technologies
+
+| Technology | Purpose |
 |---|---|
-| [SOC Architecture](architecture/lab-architecture.md) | SIEM monitoring architecture |
-| [Sysmon Analysis](sample-logs/sysmon-event-analysis.md) | Windows process monitoring |
-| [Authentication Monitoring](investigation-reports/multiple-failed-logins.md) | Failed login investigation |
-| [Detection Engineering](detection-rules/README.md) | Wazuh detection rule examples |
-| [PowerShell Investigation](investigation-reports/suspicious-powershell.md) | Endpoint investigation |
-| [MITRE ATT&CK](mitre-mapping/attack-techniques.md) | Threat technique mapping |
-| [Incident Response](incident-response/powershell-incident-report.md) | Incident handling |
-| [Vulnerability Management](vulnerability-management/vulnerability-assessment.md) | Risk and remediation |
-| [Security Skills](security-skills/learning-outcomes.md) | Learning outcomes |
+| Wazuh SIEM | Security monitoring concepts |
+| Windows Sysmon | Endpoint telemetry |
+| MITRE ATT&CK | Threat technique mapping |
+| Windows Event Logs | Security event analysis |
+| XML | Detection rule examples |
+| Python | Security automation concepts |
+
+## Project Architecture
+
+Windows Endpoint → Sysmon → Wazuh Agent → Wazuh Manager → Wazuh Dashboard → Alert Investigation
+
+## Project Modules
+
+| Module | Documentation |
+|---|---|
+| SOC Architecture | [View Architecture](architecture/lab-architecture.md) |
+| Sysmon Event Analysis | [View Analysis](sample-logs/sysmon-event-analysis.md) |
+| Authentication Monitoring | [View Investigation](investigation-reports/multiple-failed-logins.md) |
+| Detection Engineering | [View Detection Rules](detection-rules/README.md) |
+| PowerShell Investigation | [View Case Study](investigation-reports/suspicious-powershell.md) |
+| MITRE ATT&CK | [View Mapping](mitre-mapping/attack-techniques.md) |
+| Incident Response | [View Report](incident-response/powershell-incident-report.md) |
+| Vulnerability Management | [View Assessment](vulnerability-management/vulnerability-assessment.md) |
+| Security Skills | [View Learning Outcomes](security-skills/learning-outcomes.md) |
+
+## Key Cybersecurity Domains
+
+- Security Operations
+- Endpoint Security Monitoring
+- Threat Detection & Investigation
+- Incident Management
+- Vulnerability Management
+- Security Risk Assessment
+- Governance & Compliance
 
 ## Project Limitations
 
@@ -22,4 +65,6 @@
 - Detection rules have not been validated.
 - Screenshots, where included, are illustrative.
 
----
+## Disclaimer
+
+This repository is intended for educational and portfolio purposes. All scenarios and sample events are illustrative and do not represent validated live security detections.
