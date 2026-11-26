@@ -29,14 +29,12 @@ flowchart LR
         S --> E
         E --> A
     end
-
     subgraph SIEM["Wazuh 4.14.11 OVA - VirtualBox VM"]
         M["Wazuh Manager"]
         I["Wazuh Indexer"]
         D["Wazuh Dashboard"]
         M --> I --> D
     end
-
     A -->|"Agent communication - TCP 1514"| M
     U["Analyst Web Browser"] -->|"HTTPS dashboard access"| D
 ```
@@ -66,6 +64,39 @@ flowchart LR
 | MITRE ATT&CK | Framework for classifying attacker techniques |
 | XML | Wazuh agent configuration and detection-rule format |
 | Python | Future security automation and analysis exercises |
+
+## Lab Screenshots
+
+Add screenshots as you complete each setup and validation milestone. The image files are not uploaded yet.
+
+| Evidence | Screenshot |
+|---|---|
+| VirtualBox VMs | [01 – VirtualBox VMs](screenshots/01-virtualbox-vms.png) |
+| Wazuh Dashboard | [02 – Wazuh Dashboard](screenshots/02-wazuh-dashboard.png) |
+| Active Windows Agent | [03 – Active Agent](screenshots/03-active-agent.png) |
+| Sysmon Installation | [04 – Sysmon Installation](screenshots/04-sysmon-installation.png) |
+| Sysmon Event Viewer | [05 – Sysmon Event Viewer](screenshots/05-sysmon-event-viewer.png) |
+| Event visible in Wazuh | [06 – Wazuh Event Detection](screenshots/06-wazuh-event-detection.png) |
+
+See [screenshots/README.md](screenshots/README.md) for the capture checklist, filenames, and guidelines.
+
+## Repository Structure
+
+```text
+HomeLab---Wazuh/
+├── README.md
+├── architecture/
+│   └── lab-architecture.md
+├── screenshots/
+│   └── README.md
+├── sample-logs/
+├── detection-rules/
+├── investigation-reports/
+├── incident-response/
+├── mitre-mapping/
+├── vulnerability-management/
+└── security-skills/
+```
 
 ## Repository Modules
 
