@@ -67,7 +67,7 @@ flowchart LR
 
 ## Lab Screenshots
 
-Add screenshots as you complete each setup and validation milestone. The image files are not uploaded yet.
+Screenshots from the current setup are stored in the `screenshots/` folder. The links below use the filenames currently present in the repository.
 
 | Evidence | Screenshot |
 |---|---|
@@ -75,7 +75,7 @@ Add screenshots as you complete each setup and validation milestone. The image f
 | Wazuh Dashboard | [02 – Wazuh Dashboard](screenshots/02-wazuh-dashboard.png) |
 | Active Windows Agent | [03 – Active Agent](screenshots/03-active-agent.png) |
 | Sysmon Installation | [04 – Sysmon Installation](screenshots/04-sysmon-installation.png) |
-| Sysmon Event Viewer | [05 – Sysmon Event Viewer](screenshots/05-sysmon-event-viewer.png) |
+| Sysmon Event Viewer | [05 – Sysmon Event Viewer](screenshots/sysmon-event-viewer.png) |
 | Event visible in Wazuh | [06 – Wazuh Event Detection](screenshots/06-wazuh-event-detection.png) |
 
 See [screenshots/README.md](screenshots/README.md) for the capture checklist, filenames, and guidelines.
